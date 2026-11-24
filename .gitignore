@@ -1,0 +1,28 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw & large local data files (keep raw dataset out of Git)
+sorted_data_acl/
+data/raw/
+*.review
+
+# Model checkpoints & large artifacts
+models/
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+#Local folders
+docs/
