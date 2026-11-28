@@ -1,0 +1,13 @@
+{
+    "model_name": "gpt2",
+    "max_length": 512,
+    "padding": "dynamic",
+    "truncation": true,
+    "padding_side": "right",
+    "pad_token": "<|endoftext|>",
+    "pad_token_id": 50256,
+    "random_state": 42,
+    "train_size": 0.7,
+    "validation_size": 0.15,
+    "test_size": 0.15
+}
